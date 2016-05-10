@@ -1,0 +1,24 @@
+{
+  "name"             : "recyger/php-git-adapter",
+  "description"      : "PHP git adapter",
+  "minimum-stability": "stable",
+  "license"          : "proprietary",
+  "authors"          : [
+    {
+      "name" : "recyger",
+      "email": "recyger@gmail.com"
+    }
+  ],
+  "require"          : {
+    "php"            : "~7.0",
+    "symfony/process": "^3.0"
+  },
+  "require-dev"      : {
+    "phpunit/phpunit": "^5.3"
+  },
+  "autoload"         : {
+    "psr-4": {
+      "recyger\\GitAdapter\\": "src"
+    }
+  }
+}
